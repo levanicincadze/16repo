@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "DM Serif Display", serif;
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+}
+
+.headdiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.text {
+  color: rgba(131, 125, 136, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+}
+
+.text:hover {
+  color: rgba(44, 40, 48, 1);
+}
+
+.text2 {
+  color: rgba(131, 125, 136, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.textdiv {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.button {
+  border: 1.5px solid rgba(44, 40, 48, 1);
+  color: rgba(44, 40, 48, 1);
+  width: 146px;
+  height: 40px;
+  gap: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(44, 40, 48, 1);
+  color: rgba(255, 255, 255, 1);
+  
+}
+
+.middlemain {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(45, 38, 65, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 230px;
+  flex-wrap: wrap;
+}
+
+.middle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.line {
+  background-color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: 1px;
+}
+
+.text2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 140px;
+}
+
+.text3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 540px;
+  height: 84px;
+}
+
+.button2 {
+  width: 146px;
+  height: 40px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(45, 38, 65, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  border: 1.5px solid rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(44, 40, 48, 1);
+}
+
+.images {
+  position: relative;
+  top: 130px;
+}
+
+.middlediv {
+  width: 100%;
+  height: 474px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 30px;
+  
+}
+
+.line2 {
+  background-color: rgba(195, 150, 198, 1);
+  width: 150px;
+  height: 1px;
+}
+
+.text4 {
+  color: rgba(44, 40, 48, 1);
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.middlediv2 {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: 1300px;
+  height: 474px;
+  
+  
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  background-color: rgba(150, 169, 198, 1);
+  width: 86px;
+  height: 86px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onediv {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.text5 {
+  color: rgba(44, 40, 48, 1);
+  font-size: 28px;
+  font-weight: bolder;
+  line-height: 38.39px;
+  letter-spacing: -0.3888888955116272px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text6 {
+  color: rgba(131, 125, 136, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 350px;
+  height: 78px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.bottomdiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.bottommain {
+  background-color: rgba(45, 38, 65, 1);
+  width: 1300px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.text7 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.7777777910232544px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 475px;
+  height: 112px;
+}
+
+.button3 {
+  width: 160px;
+  height: 40px;
+  border: 1.5px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: rgba(45, 38, 65, 1);
+  cursor: pointer;
+}
+
+.button3:hover {
+  color: rgba(44, 40, 48, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1.5px solid rgba(255, 255, 255, 1);
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(250, 250, 250, 1);
+  position: relative;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerdiv {
+  width: 1300px;
+  height: 393px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.icons2 {
+  width: 100%;
+  height: 100%;
+}
+
+.pictures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomicon {
+  display: flex;
+  gap: 20px;
+}
+
+.hovers:hover {
+  background-color: rgba(44, 40, 48, 1);
+  cursor: pointer;
+}
+
+.bottomtexts{
+    width: 100%;
+    height: 159px;
+}
+
+.textbottom {
+  color: rgba(131, 125, 136, 1);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+.fixedmain{
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.fixedbottom{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.footermain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;    
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.firstext {
+  font-family: Karla;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(131, 125, 136, 1);
+
+}
+
+.btmtext {
+  font-family: Karla;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15.2px;
+  letter-spacing: 1.5px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(45, 38, 65, 1);
+}
+
+.mline {
+  width: 1300px;
+  height: 1px;
+  background-color: rgba(218, 218, 218, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+
+.firstrow p:hover{
+  font-family: Karla;
+font-size: 13px;
+font-weight: 700;
+line-height: 15.2px;
+letter-spacing: 1.5px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(45, 38, 65, 1);
+cursor: pointer;
+}
+
+
+
